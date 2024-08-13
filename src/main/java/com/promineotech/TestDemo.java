@@ -32,12 +32,12 @@ public class TestDemo {
         }
     }
 
-    public int getRandomInt() {
+    int getRandomInt() {
         Random random = new Random();
         return random.nextInt(10) + 1;
     }
 
-    public int randomNumberSquared() {
+    int randomNumberSquared() {
         int result = getRandomInt();
         return result * result;
     }
